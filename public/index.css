@@ -114,10 +114,28 @@ cursor: pointer;
     width: 100%;
   }
   
-  .btn-41:active {
-    top: 2px;
+  
+   /* Call image */
+
+   .Callimage { 
+    font-size: 170px;
+    color: white;
+    animation: shake 0.5s ;
+    animation-iteration-count: infinite;
+  }
+  .Callimage:hover {
+    color: rgb(91, 255, 27);
   }
 
+  @keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(3deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-1deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+ 
   
   .divider {
     
@@ -288,4 +306,10 @@ background: linear-gradient(219deg, rgba(255,255,255,1) 0%, rgba(113,238,250,1) 
     100% {
       opacity: 1;
     }
+  }
+
+  .imgend{
+    
+    justify-content: start;
+    direction: rtl;
   }
