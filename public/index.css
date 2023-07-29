@@ -313,3 +313,7 @@ background: linear-gradient(219deg, rgba(255,255,255,1) 0%, rgba(113,238,250,1) 
     justify-content: start;
     direction: rtl;
   }
+
+  .airblock{
+    background-color: rgb(0, 0, 0,0.5);
+  }
